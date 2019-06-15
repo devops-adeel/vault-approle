@@ -49,6 +49,7 @@ override.tf.json
 #
 # credentials
 adept-odyssey-209814-e5c3f1b91ae9.json
+gcs-key.json
 
 ### Vim ###
 # Swap

@@ -20,3 +20,14 @@ variable zone {
   description = "Zone in which to deploy"
 }
 
+variable buckets {
+  type        = "list"
+  description = "List of GCS bucket names"
+  default = [
+    "uploads",
+    "artifacts",
+    "lfs",
+    "packages",
+    "registry"
+  ]
+}
